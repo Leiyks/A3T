@@ -3,7 +3,7 @@ import time
 import os
 import numpy as np
 import cv2
-import path_config
+from . import path_config
 
 
 class BaseTracker(object):

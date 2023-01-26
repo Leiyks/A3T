@@ -2,7 +2,7 @@ import torch
 import random
 import numpy as np
 from PIL import Image
-from base_tracker import BaseTracker
+from ..base_tracker import BaseTracker
 from .aaa_util import (
     FeatureExtractor,
     ShortestPathTracker,
